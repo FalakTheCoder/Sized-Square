@@ -23,7 +23,7 @@ function draw(){
     background('#969A97');
 
     document.getElementById("square_side").innerHTML = "Width and Height of the square will be = " + diifference + "px";
-    Fill('#F90093');
+    fill('#F90093');
     stroke('F90090');
     square(noseX, noseY, diifference);
 }
